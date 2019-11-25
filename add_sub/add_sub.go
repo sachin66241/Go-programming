@@ -4,10 +4,10 @@ import (
 	"fmt"
 )
 
-func add(x int, y int) (int, int) {
-	res1 := x + y
-	res2 := x - y
-	return res1, res2
+func add(x, y int) (res1, res2 int) {
+	res1 = x + y
+	res2 = x - y
+	return
 }
 
 func main() {
