@@ -10,5 +10,10 @@ func main() {
 	num1 = 10
 	num2 = 20
 	var result = num1 + num2
-	fmt.Println(result)
+	i := 0
+	for i <= 5 {
+		fmt.Println(result)
+		i++
+	}
+
 }
